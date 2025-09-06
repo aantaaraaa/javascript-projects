@@ -1,12 +1,15 @@
-const countEL = document.getElementById('count');
-const incBtn = document.getElementById('inc');
-
 let count = 0;
 
-countEL.textContent = count;
+const counter = document.getElementById('counter');
+const increment = document.getElementById('increment');
+const decrement = document.getElementById('decrement');
 
-incBtn.addEventListener('click', function() {
-    count = count + 1;
-    countEL.textContent = count;
+increment.addEventListener('click', () => {
+    count++;
+    counter.textContent = count;
 });
 
+decrement.addEventListener('click', () => {
+    count--;
+    counter.textContent = count;
+});
