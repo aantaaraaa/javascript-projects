@@ -1,0 +1,1 @@
+A collection of small JavaScript projects showcasing basic to intermediate concepts.
