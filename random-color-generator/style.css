@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+.random-color-generator-container {
+  display: flex;
+}
+
+/* HEX section */
+.hex-color-container {
+  background-color: #F0E491;
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* RGB section */
+.rgb-color-container {
+  background-color: #FFDBB6;
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* HEX Buttons */
+.hex-color-container .hex-btn {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #31694E; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hex-color-container .hex-btn:hover {
+  background-color: #3fa56d; 
+  transform: scale(1.05);
+}
+
+.hex-color-container .hex-copy-color {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #5a5a5a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hex-color-container .hex-copy-color:hover {
+  background-color: #7a7a7a; 
+  transform: scale(1.05);
+}
+
+/* RGB Buttons */
+.rgb-color-container .rgb-btn {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #E06B80; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.rgb-color-container .rgb-btn:hover {
+  background-color: #EB7D91; 
+  transform: scale(1.05);
+}
+
+
+.rgb-color-container .rgb-copy-color {
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color:  #5a5a5a; /* dark gray for contrast */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.rgb-color-container .rgb-copy-color:hover {
+  background-color: #7a7a7a;
+  transform: scale(1.05);
+}
+
+/* Shared color text styling */
+.hex-color-value,
+.rgb-color-value {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
