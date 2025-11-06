@@ -10,35 +10,33 @@ body {
 
 .random-color-generator-container {
   display: flex;
+  gap: 10px;
 }
 
-/* HEX section */
 .hex-color-container {
-  background-color: #F0E491;
-  min-height: 100vh;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 20px;
+    background-color: #F0E491;
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
 }
 
-/* RGB section */
 .rgb-color-container {
-  background-color: #FFDBB6;
-  min-height: 100vh;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  gap: 20px;
+    background-color: #FFDBB6;
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
 }
 
-/* HEX Buttons */
 .hex-color-container .hex-btn {
   padding: 12px 20px;
   cursor: pointer;
@@ -79,7 +77,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
-  background-color: #E06B80; 
+  background-color: #E06B80; /* base pink-red */
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -87,17 +85,16 @@ body {
 }
 
 .rgb-color-container .rgb-btn:hover {
-  background-color: #EB7D91; 
+  background-color: #EB7D91; /* warmer, slightly lighter shade */
   transform: scale(1.05);
 }
-
 
 .rgb-color-container .rgb-copy-color {
   padding: 12px 20px;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
-  background-color:  #5a5a5a; /* dark gray for contrast */
+  background-color: #444444; /* dark gray for contrast */
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -105,7 +102,7 @@ body {
 }
 
 .rgb-color-container .rgb-copy-color:hover {
-  background-color: #7a7a7a;
+  background-color: #777777;
   transform: scale(1.05);
 }
 
